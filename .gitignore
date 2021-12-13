@@ -14,3 +14,5 @@ pglogical-*.tar.bz2.md5
 pglogical-*.tar.bz2.asc
 valgrind-*-*.log
 /postgres
+.cache
+.local-history
