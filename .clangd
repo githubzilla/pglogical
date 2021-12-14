@@ -1,4 +1,4 @@
 If:                               # Apply this config conditionally
   PathMatch: .*\.*                # to all headers...
 CompileFlags:                     # Tweak the parse settings
-  Add: [--include postgres.h, --include c.h --include relcache.h, --include nodes/pg_list.h, --include datatype/timestamp.h, --include access/htup.h, --include utils/relcache.h  ]
+  Add: [--include postgres.h, --include postgres_ext.h, --include c.h --include relcache.h, --include nodes/pg_list.h, --include datatype/timestamp.h, --include access/htup.h, --include utils/relcache.h, --include access/xlogdefs.h]
